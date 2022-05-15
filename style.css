@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+:root {
+  --main-bg-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(79 95 152);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+nav ul {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 65px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 12px;
+  font-family: 'Lato', sans-serif;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.slider {
+  margin: 10px 5vw;
+}
+
+.slider img {
+  width: 90vw;
+  border: 2px solid rgb(235, 227, 227);
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.item1 {
+  padding: 0 5vw;
+}
+
+.item1 img {
+  width: 90vw;
+  border: 2px solid rgb(243, 230, 230);
+  border-radius: 10px;
+}
+
+.item2 {
+  padding: 10px 5vw;
+}
+
+.item2 img {
+  width: 90vw;
+  border: 2px solid rgb(243, 230, 230);
+  border-radius: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.familyLogo {
+  padding: 10PX;
+}
+.welcome{
+  font-size: 1.3rem;
+}

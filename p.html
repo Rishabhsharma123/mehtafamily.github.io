@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omprakash Sharma's family</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(79 95 152);
+
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding: 0 12px;
+            cursor: pointer;
+        }
+
+        nav ul {
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            list-style: none;
+            height: 65px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 0 12px;
+            font-family: 'Lato', sans-serif;
+        }
+
+        nav ul li a:hover {
+            font-weight: bolder;
+        }
+
+        .slider {
+            margin: 10px 5vw;
+
+        }
+
+        .slider img {
+            width: 90vw;
+            border: 2px solid rgb(243, 230, 230);
+            border-radius: 10px;
+        }
+
+        .container {
+            padding: 0 5vw 10px 5vw;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 5vh;
+            column-gap: 10vw;
+            color: white;
+        }
+
+        .childContainerA img {
+            width: 40vw;
+            border: 2px solid white;
+            border-radius: 10px;
+
+        }
+
+        .item1,
+        .item2,
+        .item3,
+        .item4 {
+            text-align: center;
+        }
+
+        .childContainerB img {
+            width: 40vw;
+            border: 2px solid white;
+            border-radius: 10px;
+
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .familyLogo {
+            padding: 10PX;
+        }
+
+        .welcome {
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="logo">MEHTA</div>
+                <li> <a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slider">
+        <img src="img/slider 3.png" alt="">
+    </div>
+    <div class="container">
+        <div class="childContainerA">
+            <div class="item1"><img src="img/papa.png" alt=""> <br> Omprakash Sharma <br>S/o : Mr. ladu Ram Sharma
+                <br> D.O.B. :- 08/07/1982
+            </div>
+            <div class="item2"><img src="img/ravi.png" alt=""> <br> Ravi Sharma <br> S/o : Mr. Omprakash Sharma
+                <br> D.O.B. :- 04/07/2003
+            </div>
+        </div>
+        <div class="childContainerB">
+            <div class="item3"><img src="img/mom.png" alt=""> <br> Alka Sharma <br> W/o : Mr. Omprakash Sharma<br>
+                D.O.B. :- 01/01/1982</div>
+            <div class="item4"><img src="img/littile b.png" alt=""> <br> Rohit Sharma <br> S/o : Mr. Omprakash Sharma
+                <br> D.O.B. :-20/12/2005
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <span class="welcome"> 🙏WELCOME TO MEHTA FAMILY🙏</span>
+        <br>
+        <span>All Copyrights &copy; Reserved to :-</span>
+        <span class="familyLogo">MEHTA FAMILY</span>
+    </footer>
+</body>
+
+</html>
